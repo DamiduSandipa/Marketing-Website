@@ -1,0 +1,19 @@
+{
+  "name": "relan",
+  "type": "module",
+  "version": "0.0.1",
+  "author": "Vootex Development",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.0.0",
+    "astro": "^3.0.3",
+    "pattern.css": "^1.0.0",
+    "tailwindcss": "^3.3.3"
+  }
+}

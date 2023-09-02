@@ -1,0 +1,39 @@
+---
+import Container from "./Container.astro";
+
+---
+
+<footer class="bg-green-100">
+    <Container>
+        <div class="flex flex-col justify-center md:justify-between items-center py-8 md:py-10 md:flex-row md:gap-10 gap-16">
+            <div class="justify-center flex">
+                <img src="/public/logo.png" alt="relan logo" class="w-20 bg-center">
+            </div>
+            <div>
+                <ul>
+                    <li class="flex flex-col md:flex-row gap-6 text-center">
+                        <a href="#" class="text-sm text-zinc-800 hover:text-black duration-500 font-medium hover:underline">About Us</a>
+                        <a href="#" class="text-sm text-zinc-800 hover:text-black duration-500 font-medium hover:underline">Our Certificates</a>
+                        <a href="#" class="text-sm text-zinc-800 hover:text-black duration-500 font-medium hover:underline">Contact Us</a>
+                        <a href="#" class="text-sm text-zinc-800 hover:text-black duration-500 font-medium hover:underline">Bulk Orders</a>
+                        <a href="#" class="text-sm text-zinc-800 hover:text-black duration-500 font-medium hover:underline">Example Text</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="">
+                <div class="flex gap-4 cursor-pointer">
+                    <a href="" target="_blank"><i class="text-gray-600 opacity-70 text-xl duration-300 fa-brands fa-facebook hover:opacity-100"></i></a>
+                    <a href="" target="_blank"><i class="text-gray-600 opacity-70 text-xl duration-300 fa-brands fa-instagram hhover:opacity-100"></i></a>
+                    <a href="" target="_blank"><i class="text-gray-600 opacity-70 text-xl duration-300 fa-brands fa-whatsapp hover:opacity-100"></i></a>
+                    <a href="" target="_blank"><i class="text-gray-600 opacity-70 text-xl duration-300 fa-brands fa-linkedin hover:opacity-100"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright text -->
+        <div class="flex pt-6">
+             <div class="border-t border-zinc-300  w-full">
+                <p class="pt-4 pb-4 text-sm font-normal text-center text-zinc-800">Copyright © Relan. Developed by Vootex Team</p>
+            </div>
+        </div>
+    </Container>
+</footer>
